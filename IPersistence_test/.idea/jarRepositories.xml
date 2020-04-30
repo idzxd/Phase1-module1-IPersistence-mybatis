@@ -3,11 +3,6 @@
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
       <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="http://nexus.unicompayment.com/repository/public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
       <option name="name" value="central" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
@@ -25,11 +20,6 @@
       <option name="id" value="public-snapshots" />
       <option name="name" value="public-snapshots" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="public" />
-      <option name="name" value="Public Repositories" />
-      <option name="url" value="http://nexus.unicompayment.com/repository/public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
