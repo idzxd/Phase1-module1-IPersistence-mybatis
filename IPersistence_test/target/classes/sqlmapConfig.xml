@@ -1,0 +1,9 @@
+<configuration>
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver" ></property>
+        <property name="jdbcUrl" value="" ></property>
+        <property name="" value="" ></property>
+        <property name="" value="" ></property>
+        <property name="" value="" ></property>
+    </dataSource>
+</configuration>
