@@ -55,14 +55,14 @@ public class DefaultSqlSession implements SqlSession {
     public int updateOne(String statementId, Object... params) throws Exception {
         SimpleExecutor simpleExecutor = new SimpleExecutor();
         MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
-        return  simpleExecutor.insert(configuration, mappedStatement, params);
+        return  simpleExecutor.update(configuration, mappedStatement, params);
     }
 
     @Override
     public int deleteOne(String statementId, Object... params) throws Exception {
         SimpleExecutor simpleExecutor = new SimpleExecutor();
         MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
-        return  simpleExecutor.insert(configuration, mappedStatement, params);
+        return  simpleExecutor.delete(configuration, mappedStatement, params);
     }
 
 
